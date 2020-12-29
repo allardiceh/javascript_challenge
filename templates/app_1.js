@@ -27,7 +27,7 @@ function runEnter() {
   }
 
   let table = document.querySelector("table");
-  let info = Object.keys(Data[0]);
+  let info = Object.keys(data[0]);
   generateTableHead(table);
 
   function generateTable(table, info) {
@@ -42,7 +42,7 @@ function runEnter() {
     }
   }
   
-  generateTable(table, Data)
+  generateTable(table, data)
 };
 
 
